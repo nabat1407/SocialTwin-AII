@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090912">
+<title>SocialTwin AI — Fürsətlərin səninlə uyğunlaşdığı yer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="SocialTwin ana səhifə"><span class="brand-mark">S<span>T</span></span><span>SocialTwin<span class="brand-ai"> AI</span></span></a>
+  <nav class="desktop-nav" aria-label="Əsas menyu">
+    <a class="nav-link active" href="#ana-sehife">Ana səhifə</a>
+    <a class="nav-link" href="#imkanlar">İmkanlar</a>
+    <a class="nav-link" href="#nece-isleyir">Necə işləyir?</a>
+  </nav>
+  <div class="top-actions"><span class="demo-pill"><i></i> DEMO VERSİYA</span><button class="profile-chip" id="profile-open" aria-label="Profilə keç">ŞR</button><button class="menu-btn" id="menu-toggle" aria-label="Menyunu aç">☰</button></div>
+</header>
+<div class="mobile-menu hidden" id="mobile-menu"><a href="#ana-sehife">Ana səhifə</a><a href="#imkanlar">İmkanlar</a><a href="#nece-isleyir">Necə işləyir?</a><button id="mobile-profile">Profilim</button></div>
+
+<main>
+<section class="hero" id="ana-sehife">
+  <div class="hero-glow"></div><div class="hero-grid"></div>
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="spark">✦</span> SƏNİN ŞƏXSİ İMKAN KÖMƏKÇİN</div>
+    <h1>Gələcəyini<br>təsadüfə yox,<br><span>imkanlara bağla.</span></h1>
+    <p class="hero-desc">SocialTwin AI təhsil, təcrübə, təqaüd və karyera imkanlarını məqsədlərinə uyğunlaşdırır, növbəti addımını aydınlaşdırır.</p>
+    <div class="goal-box">
+      <label for="goal-input">MƏQSƏDİN NƏDİR?</label>
+      <div class="goal-entry"><span class="goal-spark">✦</span><input id="goal-input" value="Süni intellekt sahəsində təcrübə tapmaq istəyirəm" aria-label="Məqsədin"><button id="analyze-btn">İmkanları tap <span>→</span></button></div>
+      <div class="goal-hint"><span>↳</span> Məsələn: “Təqaüd qazanmaq və ya təcrübə proqramına qoşulmaq istəyirəm”</div>
+    </div>
+    <div class="hero-proof"><div class="proof-avatars"><span>Ş</span><span>Ə</span><span>R</span></div><span>Bir məqsəd. Daha aydın növbəti addım.</span></div>
+  </div>
+  <div class="hero-art" aria-label="SocialTwin AI uyğunluq göstəricisi">
+    <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+    <div class="orb orb-one"></div><div class="orb orb-two"></div>
+    <div class="core"><div class="core-symbol">✦</div><b>ST</b><small>SƏNİN RƏQƏMSAL<br>ƏKİZİN</small></div>
+    <div class="float-card float-match"><span class="float-icon">↗</span><div><small>ƏN YAXŞI UYĞUNLUQ</small><b>94% <em>uyğunluq</em></b></div></div>
+    <div class="float-card float-ready"><span class="ready-ring">✓</span><div><small>HAZIRLIQ SƏVİYYƏN</small><b id="hero-readiness">72% <em>hazırsan</em></b></div></div>
+    <div class="tiny-dot dot-a"></div><div class="tiny-dot dot-b"></div><div class="tiny-dot dot-c"></div>
+  </div>
+</section>
+
+<section class="dashboard section-wrap" id="imkanlar">
+  <div class="section-heading"><div><div class="eyebrow muted">MƏQSƏDİNƏ UYĞUN SEÇİMLƏR</div><h2>Sənin üçün seçilmiş imkanlar <span class="count">03</span></h2><p class="section-sub">Uyğunluğu nəzərdən keçir, tələbləri yoxla və müraciətə hazırlaş.</p></div><button class="text-button" id="view-all">Bütün imkanlar <span>→</span></button></div>
+  <div class="filters"><button class="filter active" data-filter="Hamısı">Bütün imkanlar <span>3</span></button><button class="filter" data-filter="Təcrübə">Təcrübə</button><button class="filter" data-filter="Hakaton">Hakaton</button><button class="filter" data-filter="Təlim">Təlim</button><span class="filter-note"><span class="blue-dot"></span> Nümunə məlumatlar</span></div>
+  <div class="opportunity-grid" id="opportunity-grid"></div>
+  <div class="bottom-insight"><div class="insight-icon">✦</div><div><b>Hələ tam hazır deyilsən? Problem deyil.</b><p>SocialTwin çatışmayan addımları müəyyənləşdirməyə və mərhələli hazırlaşmağa kömək edir.</p></div><button id="open-plan">Fəaliyyət planıma bax <span>→</span></button></div>
+</section>
+
+<section class="how-section" id="nece-isleyir"><div class="section-wrap">
+  <div class="eyebrow muted">SADƏ, AĞILLI, FƏRDİLƏŞDİRİLMİŞ</div><h2>İmkanlara gedən yolun<br><span>üç addımdan başlayır.</span></h2>
+  <div class="steps-grid">
+    <article class="step-card"><div class="step-no">01</div><div class="step-icon">◎</div><h3>Məqsədini paylaş</h3><p>İstədiyin istiqaməti, bacarıqlarını və hazırkı vəziyyətini qeyd et.</p></article>
+    <article class="step-card"><div class="step-no">02</div><div class="step-icon">✧</div><h3>Uyğun imkanları kəşf et</h3><p>İmkanları uyğunluq göstəricisi, tələblər və hazırlıq səviyyəsi ilə müqayisə et.</p></article>
+    <article class="step-card"><div class="step-no">03</div><div class="step-icon">↗</div><h3>Növbəti addımını at</h3><p>CV, portfolio və müraciət sənədləri üçün konkret fəaliyyət planı qur.</p></article>
+  </div>
+</div></section>
+
+<section class="profile-section section-wrap" id="profil">
+  <div class="profile-heading"><div><div class="eyebrow muted">SƏNİN BAŞLANĞIC NÖQTƏN</div><h2>Profilin və hazırlıq planın</h2><p class="section-sub">Bu demo profilində məlumatları dəyişə və fəaliyyət addımlarını tamamlaya bilərsən.</p></div><span class="demo-pill"><i></i> YALNIZ DEMO</span></div>
+  <div class="profile-layout">
+    <div class="panel profile-panel"><div class="profile-header"><div class="avatar large">ŞR</div><div><h3 id="profile-name">Şahnabat Rüstəmova</h3><p>Kompüter elmləri · 3-cü kurs</p><span class="verified-chip">Profilin tamamlanması · 78%</span></div></div>
+      <label class="field-label" for="education">Təhsil</label><input class="field" id="education" value="Kompüter elmləri — 3-cü kurs">
+      <label class="field-label">Bacarıqlar</label><div class="skill-list" id="skill-list"><span>Python <button aria-label="Python bacarığını sil">×</button></span><span>SQL <button aria-label="SQL bacarığını sil">×</button></span><span>Süni intellekt <button aria-label="Süni intellekt bacarığını sil">×</button></span><button class="add-skill" id="add-skill">+ Bacarıq əlavə et</button></div>
+      <label class="field-label" for="experience">Təcrübə və layihələr</label><textarea class="field" id="experience" rows="3">Python və məlumatların təhlili üzrə akademik layihələr üzərində işləyirəm.</textarea>
+      <label class="field-label" for="career-goal">Karyera məqsədi</label><input class="field" id="career-goal" value="Süni intellekt / Maşın öyrənməsi üzrə təcrübə">
+      <button class="primary full" id="save-profile">Profili yadda saxla <span>→</span></button><div id="profile-saved" class="inline-success hidden">✓ Demo profil yadda saxlanıldı</div>
+    </div>
+    <div class="panel profile-side"><div class="eyebrow muted">PROFİL GÜCÜ</div><div class="strength-score">78<span>%</span></div><div class="progress"><span style="width:78%"></span></div><h3>Profilini daha da gücləndir</h3><p>Layihələrini göstərən portfolio bacarıqlarını real nümunələrlə nümayiş etdirməyə kömək edər.</p><div class="suggestion"><span>↗</span><div><b>GitHub portfolio əlavə et</b><small>Layihələrini işəgötürənlərlə paylaş</small></div></div><div class="suggestion"><span>✦</span><div><b>Layihələrini vurğula</b><small>Bacarıqlarını real nəticələrlə əlaqələndir</small></div></div></div>
+  </div>
+</section>
+
+<section class="tracker-section section-wrap" id="izleyici"><div class="section-heading"><div><div class="eyebrow muted">ADDIMLARINI İZLƏ</div><h2>Müraciət izləyicisi</h2><p class="section-sub">Yadda saxladığın imkanları və hazırlıq səviyyəni bir yerdə gör.</p></div></div>
+  <div class="stats-row"><div class="stat-card"><small>İmkanların sayı</small><b>3</b><span>Məqsədinə uyğun nümunələr</span></div><div class="stat-card"><small>Hazırlıqda</small><b id="tracker-preparing">1</b><span>Addımlarını davam etdir</span></div><div class="stat-card"><small>Hazırlıq səviyyəsi</small><b id="tracker-readiness">72%</b><span>Əsas uyğunluq üzrə demo göstərici</span></div></div>
+  <div class="panel tracker-panel"><div class="panel-title"><h3>İmkanların</h3><span class="demo-pill"><i></i> NÜMUNƏ MƏLUMATLAR</span></div><div class="tracker-table" id="tracker-list"></div></div>
+</section>
+<footer><a class="brand footer-brand" href="#"><span class="brand-mark">S<span>T</span></span><span>SocialTwin<span class="brand-ai"> AI</span></span></a><p>İmkanları tap. Özünü hazırla. İrəli get.</p><small>© 2026 SocialTwin AI · Hackathon prototipi · Canlı məlumat bazası və real AI inteqrasiyası daxil deyil.</small></footer>
+</main>
+
+<div class="modal-backdrop hidden" id="modal-backdrop"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" id="modal-close" aria-label="Bağla">×</button><div id="modal-content"></div></section></div>
+<div class="toast hidden" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
